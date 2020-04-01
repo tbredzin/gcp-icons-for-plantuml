@@ -1,31 +1,29 @@
 @startuml Two Modes - Technical View
+'Copyright (c) 2020 David Holsgrove
 'Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
-'SPDX-License-Identifier: MIT (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+'SPDX-License-Identifier: MIT (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
 
-!define AWSPuml https://raw.githubusercontent.com/awslabs/aws-icons-for-plantuml/master/dist
-!includeurl AWSPuml/AWSCommon.puml
+!define GCPPuml https://raw.githubusercontent.com/davidholsgrove/gcp-icons-for-plantuml/master/dist
+!include GCPPuml/GCPCommon.puml
+
+' Include Material Design Common icons
+!include <material/common>
 
 ' Uncomment the following line to create simplified view
-' !includeurl AWSPuml/AWSSimplified.puml
+' !include GCPPuml/GCPSimplified.puml
 
-!includeurl AWSPuml/General/Users.puml
-!includeurl AWSPuml/Mobile/APIGateway.puml
-!includeurl AWSPuml/SecurityIdentityAndCompliance/Cognito.puml
-!includeurl AWSPuml/Compute/Lambda.puml
-!includeurl AWSPuml/Database/DynamoDB.puml
+!include GCPPuml/APIManagement/CloudEndpoints.puml
+!include GCPPuml/Compute/AppEngine.puml
+!include <material/cellphone_android>
 
 left to right direction
 
-Users(sources, "Events", "millions of users")
-APIGateway(votingAPI, "Voting API", "user votes")
-Cognito(userAuth, "User Authentication", "jwt to submit votes")
-Lambda(generateToken, "User Credentials", "return jwt")
-Lambda(recordVote, "Record Vote", "enter or update vote per user")
-DynamoDB(voteDb, "Vote Database", "one entry per user")
+GCPEntityColoring(MA_CELLPHONE_ANDROID)
+MA_CELLPHONE_ANDROID(#9E9E9E, 1, sources, rectangle, "Android")
+CloudEndpoints(endpoints, "GCP Cloud Endpoints", "api")
+AppEngine(engine, "GCP App Engine", "API Backend Instances")
 
-sources --> userAuth
-sources --> votingAPI
-userAuth <--> generateToken
-votingAPI --> recordVote
-recordVote --> voteDb
+sources <--> endpoints
+endpoints <--> engine
+
 @enduml

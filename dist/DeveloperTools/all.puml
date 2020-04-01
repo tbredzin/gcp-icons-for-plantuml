@@ -1,173 +1,279 @@
+'Copyright (c) 2020 David Holsgrove
 'Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
-'SPDX-License-Identifier: MIT (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+'SPDX-License-Identifier: MIT (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
 
-sprite $Cloud9 [64x64/16z] {
-xPH5bkmm40HJM13tF--78RVbvZTBnzhniiZAN-RavEI4JzwLmqPhVLZoZXvTNvIHlAoRLBf5X7MfE2_gKvh99z6boMlfbv5Wal5AxvAJ6xWKGC9JVjTWxQV5
-QBKxJyMNNAdwf3ypl5qyyBcF4M55WuT-k-YU3FSaiq-0A0eU-LMnzT8aLVyU7UFXAicgJIzgSsphmDK2xjbMzPFFK0DCZMsrQivjlKdDBiO-sNVaeqeZRz5K
-7Ivy8vE-JHJIYZgtLbUJtIewmDZTBr5ltVEo7apgPht8bdkkkMERxdguHL8jSfOJ2V80TZWlmYsoBfzl3Qt-yJg0K3tCoPxC1-YQtF3lzuztSsjh_BRGbNfy
-E2IrMEApb5iFLytTjs5pUgvD3NLktb_mW1mgmSq3LhUuWuzozq6VHO_eSVyF7kqEVGRaFNX4_Wud9oSdVm4
+sprite $CloudBuild [128x128/16z] {
+xPg9hYCh34InmPJx_p_uRT4hpLYJszXDX9QSsTSJi0lHqEq7ldpv8ZgAg3otgy5Hn67wK6yEVm3SdjXbmX-2ANL_q9V0BEiDlW5OKQ--2Nqo-ySgCE2Rm2Ze
+1RuDIBtv3hMWmZS2hJRVeHRilXVqd1_OxCUPx16CKlREPD0-uRT2zivaS7x6FmzbZonc4FuPW3FP8nXdiaSWcUmToQ3w9u5kpfxPtWpsb7vgQpez0Vg-viCe
+V6PiovwncMLWJmO5gQblH6nB1WtbCkfyda4jp66XTbhCNYnyHEnP1ZkoXQyL0RtUVEWBwqUj1GrFmaD6yRyH50fVR0D8eVccjaLqvZFOKIXylGqqEVmXRqIz
+r0QOoQuPRoSQ-cT_QZe5XU29lMrBHQu53Vc5P_Zb_t75sP7fjy3MFox0WPAEwytiYFcrj0WbcizU0yNuFM4NHiVr--pmDzIknHRi_ZE3GeV-kiAOX5_mWw6t
+PjVYun0Mcfy9cHg7tDa6Qiw6kFLZhgxO8woh7E6B-PyohjFtuyTOp5weUcZv_fyILyW9_NSjQ0j-kYP7IE1-pIOMah3YDsRlpayihjxZNuly_nzDQMj-TlFC
+-NlOmukxN-FL1_pPij-QkbVzbA1b_KGDZ_pA89VyC9J7p-pDLX__zBAVsTE2dvJzp9wrOtvch-v7oH-pL_VFaZzchzv_lUvdzkf-34717xDNzqiRAFXZzkhh
+Rsi5l_oIFIB8-uNFAXc_-s3so73F-Ra1cSZuN_yfHjWOuChwUHwjgtwQubcQJkwA4dvcnx3gv_wUln-smma_c1t9-Fbymurns0ul-pKyVIxxMR8BNH6smmj-
+Pey06Jz77RR3ER-4L6Nyh3eBd_QFzUC7UtlCmiAd_OW5hHmyTGuaVGmLsyLGE7WJvnhufZ_UCRF7R-WPlo9z1ZmAvs_qPyy_h73bVxd9ad_Sdtz8wThrmhZt
+TzpQVPIFtw5l_9aJS3ovTfyI_UaRW5w-Vc4RH3yBly1yUFrqeGS_2x-4Fhz-cnhyYMj8s_BQZGdzrVktIWR9vOD-5dw5iUtw6VtbrzhzQps31Fnk6Jtt-a7C
+NZs3TUJ8woV43hpwjf2zGWPBz2ElNn6SUlqiPkzC1kUfrmzZzivaSBHrW2FDH_e7itScWpZr-dNCtfaCMaiYE9CzCh0_UwTQ4Ar0nyxidPo0sKeepcIF39p9
+7Z6ScNrYEACd0zYH_3fYSApY4TFs6D4-QdHfF_3bovU_0G
 }
 
-AWSEntityColoring(Cloud9)
-!define Cloud9(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, Cloud9, Cloud9)
-!define Cloud9(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, Cloud9, Cloud9)
-!define Cloud9Participant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, Cloud9, Cloud9)
-!define Cloud9Participant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, Cloud9, Cloud9)
+GCPEntityColoring(CloudBuild)
+!define CloudBuild(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, CloudBuild, CloudBuild)
+!define CloudBuild(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, CloudBuild, CloudBuild)
+!define CloudBuildParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, #4284F3, CloudBuild, CloudBuild)
+!define CloudBuildParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, CloudBuild, CloudBuild)
 
-sprite $Cloud9Resource [64x64/16z] {
-xPL7Ukmm38D7ZUM__trVTOeKA5DN-OpT58242TANb-F4YHEbrb8UvNPF0CBg0_IHV23QdUmQ03vwxnO0TXUz0TdBcvW1KUwe3jZQJjuiK1B6yfr3tCft6EfB
-kx5xNIgXLekCKQwMh_gPlesqV-iUVASBuScRFOqERJVKRCTmwvvli1eyTi2YlWdvT_PpVfoUa6DnKhRy8DOeHe8BYm9bCFCJB_yOOywdIuMUpFn-j3h8AQ1w
-AGt8KQPlucsgTReDY34QP5-_yZSVVJPgNmIQM39xwpk-L6kvv22WYj3qm_8GlyMyDoPJwyDyQbPlIfUnB0w0fU1Nw2guCqhhhLoIfbRDH70LgXHF_4Q-RMwA
-Y_u5sfHutNzJXwN4QBKPk3RL9xLGBR9zVzWyCLCpBjtSHzqTMd7tRqLDQAiWBalfGu49ISB6LUnUgiMv6TcbAmjkG5ZRMxi1bn-24oTE_0O
+sprite $CloudCode [128x128/16z] {
+xPb9iWCh30G12PMu_u7__6ib6u7ReOrp-pfUfZieZ-qzFtxyw5Syv5R39QRzO_i4u9S0FZyh69HV9qYDddmGqE4FW77hjsVykDGB_16WTtxuG-1g1FgSVvOT
+lliZE9_qs_dq_KaWDTiZkDvUpGQfhzcWFk-VHTiZusPx9HiSy2y0gTaUmSNs2ZROgQ_Pe7xFFuiUFXabXu_0QhP783KFdo1z-4essAclsU3yljzg3X_1I1o-
+cXiWEJqIVxZQ83o3TdW8kgIFuFtsb2i9_gsa_FE3xIal3VJPW7wzFMNhYsCjjqTmU5BFW7XLShb1GqxFWE0VvWEkjgVHSQ6UoCtBm9cU0TIV1lJZxMam6Eh3
+WFm6UqeV151_732oswC-2WZq3CXlSE3oVOkwpyldSiZ1zh0iaiZBEsDh7v3VdhQvBDR70RQiINg3UtsB0YZGID-Q9ZUesEgZ076YWPu1kmtsX3u8a70Tr6S2
+V0I7Bz170H9UHJq3jXiSMtqK8E5rr6S3PFVmPsjHW8IXl2GR06lTD_eW89wM1lfTW0_1HXy4Y8SezUa0w4HMpm3n5oZrwG2ppT4B0lmbrAS3O9jr7hsohJYv
+l_5FPDybKlyo6LXo-CRU17uICDn7i_NYvWzVSgJ7xF1a0FMjsGhrBGfuBv1csG3g_mc8z0p8wXt__Czz0FNIMXYmq1e3ydhbUxzT0FKC2FGCoEaTcMj6f6S0
+zL50H-OjeEu20Zq3g0y2TdhBlV_22FJ_10Hw1b2_lxEolP3w862X1yyIijVFzFjlw3_wCE0VVH2Wo7y47Bv5MeIveqKCNoSVWMSYDcAws-MNEJYyVBnuBLvs
+fvV3pz_eePu1Xtex_lu1FT0p8DRdRwUS1L3FW5YVVsjd-G3gmu2EvLlwnNVV3A2Uh7ccr-Wmfm82FGFIUbnCbW7K1m7KtpoPQJf00ycQQRsr67WkG4F9cacz
+zuz-Vy3qc6Kv_Qpv_ONqqj-VN4j_VtFK_lxee-3tr_ts2CeE7pVuJRYzcWsYRHd-HOIQaWsY9UYesHvHr6oFe6PxHF3TxTLi42tDm3UtLxD1j0CwQhP753M7
+Z-1RswlPe3PIiK4qKh91RgzcWzOkwAZP7b7KR8y09TiZ0pM7ZoXgxZxH8ZqPGCtD9sgECvnWzlOvG_GAUJ_x7pz-_0a
 }
 
-AWSEntityColoring(Cloud9Resource)
-!define Cloud9Resource(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, Cloud9Resource, Cloud9Resource)
-!define Cloud9Resource(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, Cloud9Resource, Cloud9Resource)
-!define Cloud9ResourceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, Cloud9Resource, Cloud9Resource)
-!define Cloud9ResourceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, Cloud9Resource, Cloud9Resource)
+GCPEntityColoring(CloudCode)
+!define CloudCode(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, CloudCode, CloudCode)
+!define CloudCode(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, CloudCode, CloudCode)
+!define CloudCodeParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, #4284F3, CloudCode, CloudCode)
+!define CloudCodeParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, CloudCode, CloudCode)
 
-sprite $CloudDevelopmentKit [64x64/16z] {
-xPO56cCn28G7GWJc_kTT2RKdsxJhHbr-0c7couk_CVu7CxwQzjvgRIE-9WMZ5sI8ET_6Xm9Q-nZD1AZ1z_0Es8XB_rsWpZVnJjvxCSWR2JY0mSrMLkWRBIWQ
-ToaDndXjd6meFCavE3wFaoyixppfINEW5bnqVxPyi03QHrUKHVaLdQSpiI0P1PLF-OBpMOtysKLMxSTfy3QAPtj8ggp4LRziAOu2-7vTxjGbzRn5XW7QTaOK
-QPiCtGHefmaAj3_-bzE8WAOTCiXe0ZlID9GjxGKexWQKmSTVN8zZv81iSA-03f9pLymtlmdyO9ADSZW4Skc6qHNRNzkn0C5EY50dxvtOfW3e3dSejxnSggOR
-8CdVGlTpTfGTFxe2DQ9ExoI_qVcAdvCIWRJWYe-0ne5dLA06at_g4ogSUpuOCgVAiTe_DjYHZyzy9B-ONqWI2_vSFsbDkSgKqMIAB_aqGWjkzNli0DMdNhe2
-2XJF_jq0bQkxJlsJ5GZGRdeV2bGNkHZXvYCzzs-MhVtwlsb-2902Y5lUMhFtymmka8lVS_pt0vWS0lZJOuZZ3kIAMSqrNVhmAQzPCBDZaOlxKyswvciwvl8i
-4kcZCP_R2tokd5M4IAwSRcPzXK_1MF2gFuQbk5xaZ_hrrEzNy-FdyKPk_E-yyQIjU4-zJ7ugECNmcKyzhQvXhYh7I0TD6T1XQSCHYqZRD4EtwU2KOOCrv8co
-34O3RWVdpGQffvU2Rez_PqhudQjGZkRSDELal17auVFV6F_Z8m
+sprite $CloudCodeforIntelliJ [128x128/16z] {
+xPjNkZGh24KHbOtp7_2zV-O4kwtTsXyljLvEx0hA4gWWJxYvkIdQMcyqlJKjiersE5x4qLNsw0xV0DvbWsBmJM0Ras3mRM3oAXr-07Hv3VL3wCxefyr0Wny2
+JNWA_1We6y6N4u8AFmXq8_WoGh3wML250l2Z00dk4Gxoxl4E9hX7E4Yxnpl8kvVYOFKtST51-7i04jmZ7EJTunrat4jnKFsTG0dtCXoiyBU2cX9y0PBS2mUJ
+JZySt7FFsXDioq7TNyERhz4Dzveiw8I3l7ienF9DEbXm98Cs8WJPu3CYVRCE5Xngf2in05pmTRc43Sx1_U3ZDTRpxWLzq0usvlHFEyYxf_OKCWtmxjdOByN8
+XiVMYes06m03btamr_C3OD909IkNDXP-aAaKy1M6s7xn1nJIGS8zwUueppSzEkbW8zmhxjwdGplYMsNp8E5U-xlziDkgbg8DSqTnpK6zclVWRX-35VNxgLOk
+1A54tgk_ju-9lt5CT1xKwok5kQFySqzdLTze4XHVe_rAtei1jGUr05vqyCf2DTsUpb8kxw0nwsvvtCPLma4IdMqF3siUenGWIoKysdyC3KW5gRgZBiwV7t_Z
+EdQRnb-an44kWLPzoSpfSSM_jlQlNN04KwVBfEcYrnyKQLpVKGwlloBW58XzwNVvsVnJddO-gxpQLKHAjPVpRrjKdulp6kx0QfpMrwCLf8DS_RK-Ao877gq_
+cLfnvJNlNiGlww1WFKTS0mPm3gxp13UYrRVxJzwzW7SGdvZaFS8emi4v-jKzflcZ79nZj7inMvo3Ksgunrz_uXoS0jgzs1Bhu8GsQFTYjdW7lr9uzoAIDXoC
+OFlYtY1CeXqyxDw-W-QEBVVudFqrQEgf-o_IwFjFS7Vk_fFttSTknWU-_Bnx3xpwssaPjv_d1l4ExgDPZn-4Uvbtm4l6uoT1JtZqRUfUZeDLWWG7GJn-bk5U
+E9ZW7k7Whdiv3ZO94Xo44DGizyB1ZE3Z7UJTot6m2qd1UzpBSR09Zo73lQ0YnRt0aE0UuI3hNbO8zjmNe4maym1CTcZ0IVDv2lV-uTUfLzccQ6slKOiyuURc
+vdy
 }
 
-AWSEntityColoring(CloudDevelopmentKit)
-!define CloudDevelopmentKit(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, CloudDevelopmentKit, CloudDevelopmentKit)
-!define CloudDevelopmentKit(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, CloudDevelopmentKit, CloudDevelopmentKit)
-!define CloudDevelopmentKitParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, CloudDevelopmentKit, CloudDevelopmentKit)
-!define CloudDevelopmentKitParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, CloudDevelopmentKit, CloudDevelopmentKit)
+GCPEntityColoring(CloudCodeforIntelliJ)
+!define CloudCodeforIntelliJ(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, CloudCodeforIntelliJ, CloudCodeforIntelliJ)
+!define CloudCodeforIntelliJ(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, CloudCodeforIntelliJ, CloudCodeforIntelliJ)
+!define CloudCodeforIntelliJParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, #4284F3, CloudCodeforIntelliJ, CloudCodeforIntelliJ)
+!define CloudCodeforIntelliJParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, CloudCodeforIntelliJ, CloudCodeforIntelliJ)
 
-sprite $CodeBuild [64x64/16z] {
-xPK7hkCm34I7gjJC_U-x4OKO3ZOklw7cfRW-aQ0QVuKF7pJXz-aFXYxW4MfuOFMSHXtxfU6ID7JeToBr1nb0zXvu0s3DrqK1p7NYPua5Le12JToGyvGc3SX0
-qvdlQUQu_iKALAv_gG9TFSuF_VKuia0VA_BAObJOcES9cJhmTrrWc9GQP4nod9Ueue5_a_xEjnGHVPBWhoJqtHN_GsuFa0nL3nAe5p9uFGmTPHWAmtz16KEy
-G0D58-hxVL_CIFo-pnY1zh_FcpvZs1btY6veb6xvfChEbqPBQsGDwOwlRfilUG6G-wWs3vIkV7LW-H9xNe6rFp_rOvv5_TMB0R1IIr1BMjFWrAymr_8JtZDq
-x6VOqERxy2VFiv5F_9nZSZvzepQsqtBY0vdYpfz8yvcrPPtxXUAhBzOMLMs3-hglaM4KpTmYjw_blzO-gg76nDBoxzSlhHODOytCSx-em5px-42JEhAe1hZ2
-lpb-ZAi19RXOW7OPFwBqVVtTcYDH3URQ-PVpP_chP5ra3U_AZuXxdng8asLT-rJPV4rOcZOk_IZKyk5loET-TBDzU_vgfEVwhLxVqkxk7phWnFTj__ew6cl_
-9B_j0rsJR_kvjubzqzymVeU-uVmEqWR_dWyV_W4
+sprite $CloudSDK [128x128/16z] {
+xPjNkZGh24KHbOtp7_2zV-O4kwtTsXyljLvEx0hA4gWWJxYvkIdQMcyqlJKjiersE5x4qLNsw0xV0DvbWsBmJM0Ras3mRM3oAXr-07Hv3VL3wCxefyr0Wny2
+JNWA_1We6y6N4u8AFmXq8_WoGh3wML250l2Z00dk4Gxoxl4E9hX7E4Yxnpl8kvVYOFKtST51-7i04jmZ7EJTunrat4jnKFsTG0dtCXoiyBU2cX9y0PBS2mUJ
+JZySt7FFsXDioq7TNyERhz4Dzveiw8I3l7ienF9DEbXm98Cs8WJPu3CYVRCE5Xngf2in05pmTRc43Sx1_U3ZDTRpxWLzq0usvlHFEyYxf_OKCWtmxjdOByN8
+XiVMYes06m03btamr_C3OD909IkNDXP-aAaKy1M6s7xn1nJIGS8zwUueppSzEkbW8zmhxjwdGplYMsNp8E5U-xlziDkgbg8DSqTnpK6zclVWRX-35VNxgLOk
+1A54tgk_ju-9lt5CT1xKwok5kQFySqzdLTze4XHVe_rAtei1jGUr05vqyCf2DTsUpb8kxw0nwsvvtCPLma4IdMqF3siUenGWIoKysdyC3KW5gRgZBiwV7t_Z
+EdQRnb-an44kWLPzoSpfSSM_jlQlNN04KwVBfEcYrnyKQLpVKGwlloBW58XzwNVvsVnJddO-gxpQLKHAjPVpRrjKdulp6kx0QfpMrwCLf8DS_RK-Ao877gq_
+cLfnvJNlNiGlww1WFKTS0mPm3gxp13UYrRVxJzwzW7SGdvZaFS8emi4v-jKzflcZ79nZj7inMvo3Ksgunrz_uXoS0jgzs1Bhu8GsQFTYjdW7lr9uzoAIDXoC
+OFlYtY1CeXqyxDw-W-QEBVVudFqrQEgf-o_IwFjFS7Vk_fFttSTknWU-_Bnx3xpwssaPjv_d1l4ExgDPZn-4Uvbtm4l6uoT1JtZqRUfUZeDLWWG7GJn-bk5U
+E9ZW7k7Whdiv3ZO94Xo44DGizyB1ZE3Z7UJTot6m2qd1UzpBSR09Zo73lQ0YnRt0aE0UuI3hNbO8zjmNe4maym1CTcZ0IVDv2lV-uTUfLzccQ6slKOiyuURc
+vdy
 }
 
-AWSEntityColoring(CodeBuild)
-!define CodeBuild(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, CodeBuild, CodeBuild)
-!define CodeBuild(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, CodeBuild, CodeBuild)
-!define CodeBuildParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, CodeBuild, CodeBuild)
-!define CodeBuildParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, CodeBuild, CodeBuild)
+GCPEntityColoring(CloudSDK)
+!define CloudSDK(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, CloudSDK, CloudSDK)
+!define CloudSDK(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, CloudSDK, CloudSDK)
+!define CloudSDKParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, #4284F3, CloudSDK, CloudSDK)
+!define CloudSDKParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, CloudSDK, CloudSDK)
 
-sprite $CodeCommit [64x64/16z] {
-xPHNOkim30INdTYv_tbVYfGUEWfVFZq_RXXB0h7mNt7d3e3t8SO8l4sJfEvDg4gj9NNsz50A22LlmL33fchol_upU_S_bJpQ8zs_XARKgjITz4ImStwfy-JN
-EVQEm3pxHnEfwJloiiCfOrjvI8Ebhx7s_Umpj2oY_-ItRaQQFB7ZWusPhRPWmp_Bz4HdpsSezTcboPvVD82kkkSxfMCYokzyV98LcFaB7m-boMjL2KVMkEhZ
-8adL9rdAKl4hSDilogDdjRFCBIdryxtDh9CRFbFP44d1nnl5urYF0sxuG_tSFnzz8ciUYx5srlwvlyeddo6LC4qzfCxI3sd2KFhGQDgJX9qKJAcpx5-NIfO6
-7_ogR7mC8bCQAz_q9EMttyx2eXmuQuBRBTyuPUC33iUuAdkgG1IbmQNvXUZv61vSA-LeHGckxOzP9LNpsjld7uRnJ_vvQQKMu0FgiKUua5-YIYh3uF19pvVp
-EyzBVoZaUdwJkc5TkFQF_9uBQyC_yxlfd_brKh3Xh_FxaGlvtV3N-Vs6SJs_fNr3kPxV1SlyHXY_CHPu1VWzBF3VSEVE0m
+sprite $CloudScheduler [64x70/16z] {
+pPRPkjmW38FZJURzNxWxdI1q4hvUrNSJ_CiBOERwM5s7fXrxu0p7WCJ7cG2c8-Dd0fYEZ9y9O3fAVEGRNzCJ2gVEdWbeFBBwrqAZqfy4iE6M66G88Q1nnv1M
+9WGOPveLM21Nt6eyMf90N7N7lSUBmQR0bAiF7kFTsgV0pAOcNi9R91JJEMS_V-DOoV8_tRAe5ase50ThmcdheXTdm9QqJsnsJyylDgSMaz7cDBlOPwsOKob0
+N6jrWztTg4VABRvgJNwQIG9sD3-IMm9LGT97iP9RAD_3zyEkWZSAU_KXUHAlhGCW3-8fe759nXKnJq1Ik13X9JziZKVJg5xvMjiTwq-Nl4WWLpcPlkPpsK8i
+vU20XuWOidpD3rigjZkVvpmK7oVy7ButFf_uqhDtgb7-0fSy3khNhv7ll5F_PUsw_sB_vRpcEon_ZGMF7i9Ad3zv_cj8Spx_-lvvQxpv_kdxdvgUWF40esK8
+KkKBFVyuUSxUjcaRVBqrxlI2s3x_RUe9t6Z-btZ-y6N_iJtKzlG7k2XuAiyb0NuKiWLzWSfPlfEkHnMgmiXDtjQcIfKPE-crTet7pKMitfljcfR5orEFMBCB
+q3Ly7tO8T_k1UYJ4FL0Ld9hc-vXF7VxSx1_3DtL0j3_gQph_UhauF_DWMRMcRrc2-Led04jq-NhzGmWidosoqDr0PHZvTOZR0NckLQ6bbvnkZhQ4NV-FVGS
 }
 
-AWSEntityColoring(CodeCommit)
-!define CodeCommit(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, CodeCommit, CodeCommit)
-!define CodeCommit(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, CodeCommit, CodeCommit)
-!define CodeCommitParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, CodeCommit, CodeCommit)
-!define CodeCommitParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, CodeCommit, CodeCommit)
+GCPEntityColoring(CloudScheduler)
+!define CloudScheduler(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, CloudScheduler, CloudScheduler)
+!define CloudScheduler(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, CloudScheduler, CloudScheduler)
+!define CloudSchedulerParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, #4284F3, CloudScheduler, CloudScheduler)
+!define CloudSchedulerParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, CloudScheduler, CloudScheduler)
 
-sprite $CodeDeploy [64x64/16z] {
-xPNRqiGe28GR5H3w_TztAyQ9_qLI4xTsx-Rx3mEZ3KsE-J_numSd_rARqTtTUunaKnrM1HEf5ZiLcBqUCW5KpqzKJxwL7-fY4O9ETaY45Q1qlckkGF4a6uoP
-D3IUZbhoXRn2B9aCb1mK19DqGGb-aqUPkwYZ_JGmAZV8bmBCWZfT2iw02JaNgLyBr8-S7PKvO4Nd6IbACXzOwyl-740_OKDxrezpjPfUOQ1opUTyTW-x5aNo
-OiNiAFa0_REsUYulApO-w2kSgqzR-eREhmOOaEHWU35-CjgHpEmy6pUCNU6grfCqEBERcWVfK3BSL7sTZSMQh69Gd8fkWa6D3is6WMWy3I27Kjsj0jfGW6hk
-LW154OXwTvKZV1WVuic3Niw-8qd3WPvBmqVdZTxNzum2bEHQkMOc6-3t-ig_Pdnb1icLrISzzDh5WlXRhLmnNMxrcIRh6KNzsz_HPZBcrxo5KIyBz6lYlyNe
-iySjdClBykGQHcU36vOzuzZgUU7wkGzaJVLaOVfZJbR2_k89p6GMkQE-V8ynW1iv4FaA1khAugCgEthEIP8gdIFRrRCNPwOWFBclfm5A6jHHazlw1jYSkg0c
-D_K1AC-RagF0ffuE-FcmP5R8_lmEz439-UBUrIUzPeEH5PhCRNqo0vAPuIFRrYSLUXRQrmz2anSx-k9su6uBsT3V8laMjpjwleNtv7_CZn__
+sprite $CloudSourceRepositories [128x128/16z] {
+xPjNkZGh24KHbOtp7_2zV-O4kwtTsXyljLvEx0hA4gWWJxYvkIdQMcyqlJKjiersE5x4qLNsw0xV0DvbWsBmJM0Ras3mRM3oAXr-07Hv3VL3wCxefyr0Wny2
+JNWA_1We6y6N4u8AFmXq8_WoGh3wML250l2Z00dk4Gxoxl4E9hX7E4Yxnpl8kvVYOFKtST51-7i04jmZ7EJTunrat4jnKFsTG0dtCXoiyBU2cX9y0PBS2mUJ
+JZySt7FFsXDioq7TNyERhz4Dzveiw8I3l7ienF9DEbXm98Cs8WJPu3CYVRCE5Xngf2in05pmTRc43Sx1_U3ZDTRpxWLzq0usvlHFEyYxf_OKCWtmxjdOByN8
+XiVMYes06m03btamr_C3OD909IkNDXP-aAaKy1M6s7xn1nJIGS8zwUueppSzEkbW8zmhxjwdGplYMsNp8E5U-xlziDkgbg8DSqTnpK6zclVWRX-35VNxgLOk
+1A54tgk_ju-9lt5CT1xKwok5kQFySqzdLTze4XHVe_rAtei1jGUr05vqyCf2DTsUpb8kxw0nwsvvtCPLma4IdMqF3siUenGWIoKysdyC3KW5gRgZBiwV7t_Z
+EdQRnb-an44kWLPzoSpfSSM_jlQlNN04KwVBfEcYrnyKQLpVKGwlloBW58XzwNVvsVnJddO-gxpQLKHAjPVpRrjKdulp6kx0QfpMrwCLf8DS_RK-Ao877gq_
+cLfnvJNlNiGlww1WFKTS0mPm3gxp13UYrRVxJzwzW7SGdvZaFS8emi4v-jKzflcZ79nZj7inMvo3Ksgunrz_uXoS0jgzs1Bhu8GsQFTYjdW7lr9uzoAIDXoC
+OFlYtY1CeXqyxDw-W-QEBVVudFqrQEgf-o_IwFjFS7Vk_fFttSTknWU-_Bnx3xpwssaPjv_d1l4ExgDPZn-4Uvbtm4l6uoT1JtZqRUfUZeDLWWG7GJn-bk5U
+E9ZW7k7Whdiv3ZO94Xo44DGizyB1ZE3Z7UJTot6m2qd1UzpBSR09Zo73lQ0YnRt0aE0UuI3hNbO8zjmNe4maym1CTcZ0IVDv2lV-uTUfLzccQ6slKOiyuURc
+vdy
 }
 
-AWSEntityColoring(CodeDeploy)
-!define CodeDeploy(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, CodeDeploy, CodeDeploy)
-!define CodeDeploy(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, CodeDeploy, CodeDeploy)
-!define CodeDeployParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, CodeDeploy, CodeDeploy)
-!define CodeDeployParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, CodeDeploy, CodeDeploy)
+GCPEntityColoring(CloudSourceRepositories)
+!define CloudSourceRepositories(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, CloudSourceRepositories, CloudSourceRepositories)
+!define CloudSourceRepositories(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, CloudSourceRepositories, CloudSourceRepositories)
+!define CloudSourceRepositoriesParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, #4284F3, CloudSourceRepositories, CloudSourceRepositories)
+!define CloudSourceRepositoriesParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, CloudSourceRepositories, CloudSourceRepositories)
 
-sprite $CodePipeline [64x64/16z] {
-xTO5sjmm38JXaK6sPkv_tbByF-s2DqgPlcLumyJlrl_-fqJSfXY9GZlkXaJcsd2W-MaDS3tZ0Kmbca3eYHzeOY8rZEVUSzv_J__V3zr4lZtVDdQ-zfkeqRj_
-UhwfxlnjHhMtvzksuu_vHK76UhvjC_w0XHA58PvugiDydEQ6BZwj8rNd9eLxHVLDwySGTwsLkslzU77ZaZQRQD97V9ilHdsDFvGcgdZPYyr295KnQ8swvCMA
-Jru1OnHKwe8N2yen-WwNM552QQyrmeyPGXGRR2hh-O5BDoSLDHZJliF6mIgcI6eQUjxB0J-MNbcJ0LVQ7w2JwWVem13JVatmr5fw4pR5IvwAyNdf-HGlUafa
-mOBwgkr_ed1rtQ_f_YOlyHlywhhVbVDj-ARHplt0ouPuqdZPjrv2ytlsl_-z1m
+sprite $CloudTasks [128x112/16z] {
+nPi7akHG24C_KVJzBxpJouP9NSotZNcLgAW2IpYl2X830WTmutKMKW28Gm1mMQUGGhm2S3ed7oS1U1s5WJZDyGaG41S0MySmn2L0fgQVmDSH774Hq4FUZwi0
+gC5ylHPKn8M0jzkFAu6FcI-1D9YlpOBaY8k1Jfal0RWXUpqPD4GoOq56T01iPc_8WeBe0Q0fyoMmhUoDP90HVS0tp3UIGObUGENYRmNMRRxQWdNsfYneY7OW
+HVRc1k286u1MYtycWuIxz6tJV31zm_2brYV-leuddlMU1Hd5m0ZFEjt3x-juOk_Mf-OksREWTUhN0n34GNs9Mh-s8ExLjvt5_ruVf_KJ_cI-8_euhWylpBUh
+xvlzGuhizVOVS2eMVs__0NsVlRx-wmmI8lhwhpDeC_eHKfYlMH-UvflI3sYQRqmVL1pzJl_d4kA8eVxJ0Of1_G1PZEgpNwglx_KVKGBnXlvtz6rMdnMJ-a4q
+sJzyBKEN_tvsBonp-lb0q36chwFdt_3r6vlo7uzVVoM2YVv19ww_utp_UkR-8qwVVq2Tzr-rlXQlEvlpx-i3UdV_l3w2Uwy_R7r2RjK75S-VckUlXv-_ONsk
+ULyVjFVyKUKDpLe-r_QbTddYyHBP_kJWyNZyAoFhJpoU_AiZ7cNs2WlsGUjxF6v1Hzy_16Zq_Kl87L-zR9ilqMY7Lp9aGPjy_vhPcno0hWB2cFaInPJv4WAc
+p9S8njfFVCny2KSFM3_4MXT_3Q4rUqCPvB7l3-lizMSGj7RmrkpLK6_sQdJCV0bXp7o9p7r-dJYcp9SmMhDNOmsBVyA2jWx2_TFlNyFWqH-WdCx-VzR_oNFz
+_rrDV0KcTVE_
 }
 
-AWSEntityColoring(CodePipeline)
-!define CodePipeline(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, CodePipeline, CodePipeline)
-!define CodePipeline(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, CodePipeline, CodePipeline)
-!define CodePipelineParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, CodePipeline, CodePipeline)
-!define CodePipelineParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, CodePipeline, CodePipeline)
+GCPEntityColoring(CloudTasks)
+!define CloudTasks(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, CloudTasks, CloudTasks)
+!define CloudTasks(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, CloudTasks, CloudTasks)
+!define CloudTasksParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, #4284F3, CloudTasks, CloudTasks)
+!define CloudTasksParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, CloudTasks, CloudTasks)
 
-sprite $CodeStar [64x64/16z] {
-xLQ7akmW39CBnUZ-_tjV266kiJdsjMchhHx65fRBfFrBlF023_o1Twkb17_RFHG7Cd_NNM0voVC1Hivq9B97YSDuXjP7pYBTZGc5BVRr3eKK3ly3p2XlZk2s
-tW4u3rEx4sdGOZl-3CC15_Xf5cXjBQ5ZYr-XNMya3ji10IGYgSRFz1dUfTTthcAYAJPxa2D9blU2izllndqWAiwVYiIbEjczt3G27MNMUt5Q10VqiOwiaDfQ
-XYpPWHJLOJS99404g5oUPHwmSRe6YubuS5tRDiHTYlDTRmvMYSkS_dlJo9PRXs14clTlD_Sd-QwMTXvcf6Q5x_hPO_qOgVAzLXOdVLHW1AW_r2yB_3fBG2Px
-iaxMRep-CHZvIFeUV6ez8erYTUB28IuqSdk055tYmIH8tH5wMSuPU6Ip0ccm79mkLp-p0FxUuPBlbxNK6I2YDpA75hF3H_mb35OZ0TSDAjCeeLOkIhmO7kE1
-VFKdsOjtzT86hgdj4hzl8ouwUzU_nST1OhZ8wCIz-tzcOnsJVJTx1f_wVOSWjrPb3Czj_TQxgpEFVhuPsUA-hY_JHGozNS0TAxsPXxW1soic6Kd5ohG3sgFv
-pl89qHmXfzx-OR6chD0Dxi29r5fL33KTuZXWmHr_AmhZ662UKuTWb58Rj_ZzRMvPaMkRQUm_oKNCUdV_gtc3RHTi34WdJF0vZC-1kUjjMD3k1bWkwtrClV_t
-a_C-NdZX5m
+sprite $CloudTestLab [128x128/16z] {
+xPk7iYCx24HHW6R-_uFVsyYDivIIUuDFPIfWU_eWZLIMtvSdJvwKRfZ4UbdkhbX2YwpG0FW209hCqm5V1EWhtzwNcVy52k0R08fCeV0jG6M6YbtzKMK2Wsy2
+DXK-tyPC1B6pFoRKzusWKzpB7SpTepXOuPj1fRWNmARSupY84_t1SIz07tUFug32Zm0TT8_Ze9thRvpm1UW3uUD4KE47WGw4Zn51EztV5WR_-MK0v_k3urw0
+Jd4lTp1tprHje98uEEgUVLEdsa0bSN38lHuX6QWa3WwuPoBIL9k8s7qbiCJ1OVUgY5xkbuhK-qfGXntisTTlbt_XQYAuhRo0GGSBFEcl_WqLiTlA2qa4I-BU
+wVwQk7VezmzG4_VEv2-09Uxjz2zt49uIaLN_WVwgaeB4lJtpDtSmtCk16SOhkOC69m1Bt3jCE6Yi_XRXuu3-9dmfPce3-Sj1YS5_mBySQ7pz4_Cd1wN34svc
+QrJk9t8EkddAnxNblgBN5pGgAGPF-NnjnSVAXnKv1pxHtsuh-hs_VgkCizxVlp7Gd_txRy-V-r3-sFwnvmzx_iO0Fh3_IK4Xhx_q_GT__yNVVqe1O_-3Gdt_
+y4v-_oehxv_hyxTFl7z_GJVjVo1lg3vq_h2-_jRHyvVOsspP_rXo_dIwVqdEtmx__bq-WiVb3ydvwsd_MdB-V7Z-G3wbFch-ridx1vZ1Bm-kf7A3oWtfEdXT
+0vNSlSJ1GtIv1tuSSEyVlL7lNzsuzyzUgVVlhf9Gu2Sfaj71SIymZdj19RaN62Zk1GMSy0KT7FS2-05G94Xeu8Gli8FkaHoiCeA2ubvGSCezZeDTHW4dV443
+nxt0EE4BwW7tE0wgJ570SIzefF057KVLpsa0fNrGrE4BM7dW_m_zBR2UY4VboPCd_mC
 }
 
-AWSEntityColoring(CodeStar)
-!define CodeStar(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, CodeStar, CodeStar)
-!define CodeStar(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, CodeStar, CodeStar)
-!define CodeStarParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, CodeStar, CodeStar)
-!define CodeStarParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, CodeStar, CodeStar)
+GCPEntityColoring(CloudTestLab)
+!define CloudTestLab(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, CloudTestLab, CloudTestLab)
+!define CloudTestLab(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, CloudTestLab, CloudTestLab)
+!define CloudTestLabParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, #4284F3, CloudTestLab, CloudTestLab)
+!define CloudTestLabParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, CloudTestLab, CloudTestLab)
 
-sprite $CommandLineInterface [64x64/16z] {
-xTO54iD034DH1nOitV--7TmfsLMPyWSBBmp6PxIrHJcSoukSd-5i9jTurfSkLIBV210EEfZK8bynJIpMtHOYZ3NqN0lRubZgJRvHgaL-NgJcoAl5ny-5a1m_
-gSH3wFcUTthdFPvjQhpBcpNUw9C5o3vVGEwJ1SW-Nq3kamLeFb-0xi5YqpthxvDLtkpPBU2A7vpxoNvmUDzBzeDpjhsScXySh6KlQVtx_BRzPntynkFV-Txd
-7_xKjulZslxxNv-VCF9iVhhykcVP-qAV7ttulZS_wlFhoL_m6MrjxG
+sprite $CloudToolsforEclipse [128x128/16z] {
+xPjNkZGh24KHbOtp7_2zV-O4kwtTsXyljLvEx0hA4gWWJxYvkIdQMcyqlJKjiersE5x4qLNsw0xV0DvbWsBmJM0Ras3mRM3oAXr-07Hv3VL3wCxefyr0Wny2
+JNWA_1We6y6N4u8AFmXq8_WoGh3wML250l2Z00dk4Gxoxl4E9hX7E4Yxnpl8kvVYOFKtST51-7i04jmZ7EJTunrat4jnKFsTG0dtCXoiyBU2cX9y0PBS2mUJ
+JZySt7FFsXDioq7TNyERhz4Dzveiw8I3l7ienF9DEbXm98Cs8WJPu3CYVRCE5Xngf2in05pmTRc43Sx1_U3ZDTRpxWLzq0usvlHFEyYxf_OKCWtmxjdOByN8
+XiVMYes06m03btamr_C3OD909IkNDXP-aAaKy1M6s7xn1nJIGS8zwUueppSzEkbW8zmhxjwdGplYMsNp8E5U-xlziDkgbg8DSqTnpK6zclVWRX-35VNxgLOk
+1A54tgk_ju-9lt5CT1xKwok5kQFySqzdLTze4XHVe_rAtei1jGUr05vqyCf2DTsUpb8kxw0nwsvvtCPLma4IdMqF3siUenGWIoKysdyC3KW5gRgZBiwV7t_Z
+EdQRnb-an44kWLPzoSpfSSM_jlQlNN04KwVBfEcYrnyKQLpVKGwlloBW58XzwNVvsVnJddO-gxpQLKHAjPVpRrjKdulp6kx0QfpMrwCLf8DS_RK-Ao877gq_
+cLfnvJNlNiGlww1WFKTS0mPm3gxp13UYrRVxJzwzW7SGdvZaFS8emi4v-jKzflcZ79nZj7inMvo3Ksgunrz_uXoS0jgzs1Bhu8GsQFTYjdW7lr9uzoAIDXoC
+OFlYtY1CeXqyxDw-W-QEBVVudFqrQEgf-o_IwFjFS7Vk_fFttSTknWU-_Bnx3xpwssaPjv_d1l4ExgDPZn-4Uvbtm4l6uoT1JtZqRUfUZeDLWWG7GJn-bk5U
+E9ZW7k7Whdiv3ZO94Xo44DGizyB1ZE3Z7UJTot6m2qd1UzpBSR09Zo73lQ0YnRt0aE0UuI3hNbO8zjmNe4maym1CTcZ0IVDv2lV-uTUfLzccQ6slKOiyuURc
+vdy
 }
 
-AWSEntityColoring(CommandLineInterface)
-!define CommandLineInterface(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, CommandLineInterface, CommandLineInterface)
-!define CommandLineInterface(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, CommandLineInterface, CommandLineInterface)
-!define CommandLineInterfaceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, CommandLineInterface, CommandLineInterface)
-!define CommandLineInterfaceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, CommandLineInterface, CommandLineInterface)
+GCPEntityColoring(CloudToolsforEclipse)
+!define CloudToolsforEclipse(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, CloudToolsforEclipse, CloudToolsforEclipse)
+!define CloudToolsforEclipse(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, CloudToolsforEclipse, CloudToolsforEclipse)
+!define CloudToolsforEclipseParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, #4284F3, CloudToolsforEclipse, CloudToolsforEclipse)
+!define CloudToolsforEclipseParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, CloudToolsforEclipse, CloudToolsforEclipse)
 
-sprite $DeveloperTools [64x64/16z] {
-xTO7qgim40DWQS7WbUv_tpS49napPUVzlIczVAA3yLdv2--lnBBzRneGJx_vVwEBr__5-JNzdxTbwngFfz8xbsXfNtGB8BRQEycLMBgdcINMlI5gxuLfRSGg
-FSD8Pp1TUd6rP6rupe4RqaaU7PkBwQ-ylPmz8spMoH7bycFte-VvrOQ3io6hzR_4xQK_5i0TknioWxdNlcEpBKN8uukGam3JA-lzPmLRFqIaxrpErjA9vifB
--qf4dWM3IxQjOBhsjZfvAz23g_T6Tglou-UpWBpp1U2QLk7dWWwaVV8zPQlsSm4ZyyRxmAM_5X3i1vV-qtU2gS0M6Fn_l3kYay5k1V9__TZhRbEsuZ_dV_1n
-CCq5jRSUkmqNpGMrjnenk7TC1RKVvxhzkTTD1RKN8stVUUzJGUdTaDRMqYUthmNr-JC3O9vSkXHK7hl8J3JtS-FD1UdADp9z-1rfNGguL3x0SQreb7GfQ2pN
-NmmkhhuKM17r_ZVuyJJjpsE3b5w1jezptLIm1NQhzetpkMuK16DK5jxAbAqv7e_QI_O7Zt_-_Fzczatvd-cJVq7UpYEMboI8U_YYu2Va7m
+sprite $CloudToolsforPowerShell [128x128/16z] {
+xPi7jkmW34F153dxN_3lLMVYC914lqIdlkaMklIN0Zrwz2XRhQs-hLQhvRGiQt1Coj4ihQavV47mjcHzXoyAVQ4HEdnPwFFcmqyGPfl0_2JPYlko5gZmauGw
+attuQK9U29ycWWO_KR25y2aYMFnSeQIt1FYf0WJi4OC2zeX10Nl4e82zcC6OFGc3nI_I88FmQmG8s2C61UmHW-FiIHWqlrAmSVOa31RufKAvENmi2DWZ1ZNb
+CuCnUn86pM-H2TWZ1WNi4OE2y5441U5Z1hbyZG4SFWc31NwdRArylD04WxCTVxVLIJlAIlXilVT4dcUlxOmUqn6ClKF_91oFO3buJsn0-CgUoTsQTbHfdfVx
+M0JBG6FdaHaCg3WRMmu1nutTHbPHXJrgeG4Zx25J-Jq5wlosU1W8sAD2-jXcgh5jDOxW8NiWOuczR7J6qJRwdJXYq32G4RnahtnnfPUN3FQ1RCEEs2CNjyhz
+3NjID_hfFJR09jXZgxSspQ2r4VQu9ZQM7-Ttxmfn-BY2pgZ5JzWnWpqCNy0UVMec1YazKq8AoZSEohu1wK_-VeZzx-By5R-Alss4lvfnLV_ZvDwEm_Ny_fT7
+pdW0UclyyP7nXqVEE63bdV5t6nf_-PV74v2E2-OVdPeZs8-s2-PV7is_c9fs-loJoOqdu1CCagROiv_GZAm_Y44IDRPnNV423E4hUNMzj_xYDtdCtkoHpzPt
+mhVv6wgq_N3t-djfzs1v_y6BPFTjlnV9mlqdPl1wjQKZ_tNbEuvTO_Q4Ew2uxzWzPa_08B6dOD14ns_Cde116lSK35RHyJEp9sBGHDSFc3qHWrbq_OJP4p18
+x2aOBABhLyoUY44JNRzZzWGC4diA1glg-Yc7Jy0WiITWiAkkNpDx6WQRwlezioTWaDWJH11fGWK2ziW00Nl4u8digIBO1Fy0HUuBVq1FAwh0lUIpSeDZNDpq
+bfQLhTGvbPm2FNhqw2C
 }
 
-AWSEntityColoring(DeveloperTools)
-!define DeveloperTools(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, DeveloperTools, DeveloperTools)
-!define DeveloperTools(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, DeveloperTools, DeveloperTools)
-!define DeveloperToolsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, DeveloperTools, DeveloperTools)
-!define DeveloperToolsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, DeveloperTools, DeveloperTools)
+GCPEntityColoring(CloudToolsforPowerShell)
+!define CloudToolsforPowerShell(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, CloudToolsforPowerShell, CloudToolsforPowerShell)
+!define CloudToolsforPowerShell(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, CloudToolsforPowerShell, CloudToolsforPowerShell)
+!define CloudToolsforPowerShellParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, #4284F3, CloudToolsforPowerShell, CloudToolsforPowerShell)
+!define CloudToolsforPowerShellParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, CloudToolsforPowerShell, CloudToolsforPowerShell)
 
-sprite $ToolsAndSDKs [64x64/16z] {
-xPPdbiCm28H5hChS_xmflF0KVgZWxONTT7ss6D5uRF_sRy2RQCwPSPf6kOHmAS0vkXqXn1Z2qG0_pkb-xmhK-nuIm-qu1SeCytRN-atjLdRn9aw_B8T8qR3l
-k1MTWR8d0xXORwqYXR5sF3OCt58Pfew_hW3CXpgL0ONkZZFC1Sroy5q6AXZmZwiphCjM3F1ZXoC-1jMkIww7qJKCSSnNMTwZlm6jPu14LPtnJR2C7d8z697b
-GctEFqIk6l8s6TfHW1NF34QztvoDxlSjL32OrpmBhv6YKIKyR_DH8qMZAlhuh0cZwPHzV08uXq2bK0YPWUJbdnj_kd625-4Uie5FyM94ylBdUAsLH5fJ7Jpt
-_27g-SFxlERlWzVyTV2zVX3r-k7WjNw9QVrQyeTiSrW_rR43u_fD1RFw_LponlxXw5yn3lhNPlya6lJFpVvDPFktTtuWUcqc_lc5oCmlxlc92FhsrFn6T6f-
-KwV5DFe_TNxrpy_--VtV_kq6
+sprite $CloudToolsforVisualStudio [128x128/16z] {
+xPi7jkmW34F153dxN_3lLMVYC914lqIdlkaMklIN0Zrwz2XRhQs-hLQhvRGiQt1Coj4ihQavV47mjcHzXoyAVQ4HEdnPwFFcmqyGPfl0_2JPYlko5gZmauGw
+attuQK9U29ycWWO_KR25y2aYMFnSeQIt1FYf0WJi4OC2zeX10Nl4e82zcC6OFGc3nI_I88FmQmG8s2C61UmHW-FiIHWqlrAmSVOa31RufKAvENmi2DWZ1ZNb
+CuCnUn86pM-H2TWZ1WNi4OE2y5441U5Z1hbyZG4SFWc31NwdRArylD04WxCTVxVLIJlAIlXilVT4dcUlxOmUqn6ClKF_91oFO3buJsn0-CgUoTsQTbHfdfVx
+M0JBG6FdaHaCg3WRMmu1nutTHbPHXJrgeG4Zx25J-Jq5wlosU1W8sAD2-jXcgh5jDOxW8NiWOuczR7J6qJRwdJXYq32G4RnahtnnfPUN3FQ1RCEEs2CNjyhz
+3NjID_hfFJR09jXZgxSspQ2r4VQu9ZQM7-Ttxmfn-BY2pgZ5JzWnWpqCNy0UVMec1YazKq8AoZSEohu1wK_-VeZzx-By5R-Alss4lvfnLV_ZvDwEm_Ny_fT7
+pdW0UclyyP7nXqVEE63bdV5t6nf_-PV74v2E2-OVdPeZs8-s2-PV7is_c9fs-loJoOqdu1CCagROiv_GZAm_Y44IDRPnNV423E4hUNMzj_xYDtdCtkoHpzPt
+mhVv6wgq_N3t-djfzs1v_y6BPFTjlnV9mlqdPl1wjQKZ_tNbEuvTO_Q4Ew2uxzWzPa_08B6dOD14ns_Cde116lSK35RHyJEp9sBGHDSFc3qHWrbq_OJP4p18
+x2aOBABhLyoUY44JNRzZzWGC4diA1glg-Yc7Jy0WiITWiAkkNpDx6WQRwlezioTWaDWJH11fGWK2ziW00Nl4u8digIBO1Fy0HUuBVq1FAwh0lUIpSeDZNDpq
+bfQLhTGvbPm2FNhqw2C
 }
 
-AWSEntityColoring(ToolsAndSDKs)
-!define ToolsAndSDKs(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, ToolsAndSDKs, ToolsAndSDKs)
-!define ToolsAndSDKs(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, ToolsAndSDKs, ToolsAndSDKs)
-!define ToolsAndSDKsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, ToolsAndSDKs, ToolsAndSDKs)
-!define ToolsAndSDKsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, ToolsAndSDKs, ToolsAndSDKs)
+GCPEntityColoring(CloudToolsforVisualStudio)
+!define CloudToolsforVisualStudio(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, CloudToolsforVisualStudio, CloudToolsforVisualStudio)
+!define CloudToolsforVisualStudio(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, CloudToolsforVisualStudio, CloudToolsforVisualStudio)
+!define CloudToolsforVisualStudioParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, #4284F3, CloudToolsforVisualStudio, CloudToolsforVisualStudio)
+!define CloudToolsforVisualStudioParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, CloudToolsforVisualStudio, CloudToolsforVisualStudio)
 
-sprite $XRay [64x64/16z] {
-xPO54kim44FbtRKNTF_pVl8q4q_QDFbCRo0eWsIgtv3__8UJhrLNZDxxoE9NgOTW8dw_14O3T4JuK42ID-KEM78I2ZZlrGuu7n9o0C4xVMzhXNIqkXu6Euo7
-D-Lcuv8HYNPml676CNZ5lCvQuG0qObmfWFRCBUaa6OUc7Q7WMJSvZNZR059mbgmMUPgz0balO0AjdwNG0Udr6jUp56XelZf4aijZzfS5qD5o_Rlo4qkNoMYl
-nhCi7rXk3G2QBOsYG_dS7U5UtO0cgjA0jLk7Y8yZZwM0nUn_6A35tNpmv_hD6AP0WjpwBBjbX0F-hdw1BNqkWzGRVK2v1MdaFeVvQZT5plndGFQrXrTnbqv3
-ydd-KqPT6aX3Sejjkpb2WmJ9XEpQFlMFsCWuMGyDiE3OZL2pXtw-3ZjRHUWDHaNmuLjhcpwWx40xMyvP7jiI4hde4qBNT_iHMO8vXc3SwQiWTMKHFzDVWOha
-KS-4Njr1_9dUqQ_f7SQgT6XcQvaApohQrOrq3b313YacMXqusGAxxkX5GsTTfC795KUxTGG8dhuvXmCOvFOuds-UOJGUnuRxXvXY223T8xmB8C6w1yiLcCn9
-SnSolN_2a_ocCophD-K___a8
+sprite $ContainerRegistry [128x128/16z] {
+xPfDckCW30KbG7ho_IyyI-PF_Ip7-jYajjsTcXWA4XZvWIzVlkXO3nag7pCCWOS4RCXdM20-067o0Ug83u6hF8RhEN1vYY5U02RF6F4Ie-7fzu_0Ghm4bjHH
+n6j06oPVxnGSY1V1Q9XydLDmnhjWIWdWPJyEj4SRvEsTQT0w_7QelNg3tkFttlOuDnj4z00KsplIe2BQW5RQEzBWY4um2ksTQ70YMi5aawyPF6-llq55j0Dz
+t1xuu-6_17lQdgdSyOiQ_pfKRy-7o3s_oF0d3KwGRcxw-MjL9n-MIiqlkb2SWePyuDEj6KW3LoirgFXXu1C_biX2ki0CBpm01n-iWVyy5xLyYvcus-04-PV-
+8_AHl4zJ_bJ7tRV_-zfyfPDu8XjVa0R9me_iCxd-E7im4d_Ie8BKzCzCOXzQdHGBvUrjFwwg_mBncsm6WlY3-DFVm9r5o4_udNpXAVhJl-HVXu0JVZXfhzaV
+MBkzJZ_P1wtW9-jFrM-xlO8_MNzB_hrCUi5Fzf-wtsH4LFna_otw8uRXkV-A9RBYUku7qTDN0VPuUDqV7dM_wR-F_C8KcRY8dy3yUzeD_sSWHFPWTFcldTtl
+RzPrtzWL_IZvbyXcxOh_jvVVytl5F_vPz9Ab-BRVPy6Vc3xmOocE-bKMclri0phfrxrtTVdvMP3Zb7yNUyG_-R5Jfz_voGVrvwiIz--_Ms3-PANDLsNkDza0
+n9_iDFcknFqgcnd4VoKxRRehNo3-nOyVjbyz-QIHVIhXtx_JApz-_k39fdcbvm_yBimAvo-4Yvs_xFOsMZX_8fJEdrY3MFaeyPTUj3tU86RjQlBEWRAMhbrT
+d_ZL8sDLZzzDgtwrk8ArnnlSqTVy4rVz7jhUk7y8TlyGBWaAVl_2gTw_y0Rtse_Wx84dxP46Jzo1psXd7RX-JjeZ3ROm-l_x0Mllv0su2cCX-Z3X06VQwszm
+B_nd6eJSOg2xlJCDkjn4qTlUcGQN47eRX1IOZUsTQT2bn41NUsSQD2cYw6dlJ8DBwZWws-DCjBR7SJIqTwB18SzOw6-lVn5mUOwXLSzPG6Vv73K4A95WGpv6
+nrpFc2e_yENBbry
 }
 
-AWSEntityColoring(XRay)
-!define XRay(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, XRay, XRay)
-!define XRay(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, XRay, XRay)
-!define XRayParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, XRay, XRay)
-!define XRayParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, XRay, XRay)
+GCPEntityColoring(ContainerRegistry)
+!define ContainerRegistry(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, ContainerRegistry, ContainerRegistry)
+!define ContainerRegistry(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, ContainerRegistry, ContainerRegistry)
+!define ContainerRegistryParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, #4284F3, ContainerRegistry, ContainerRegistry)
+!define ContainerRegistryParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, ContainerRegistry, ContainerRegistry)
+
+sprite $GradleAppEnginePlugin [128x128/16z] {
+xPjNkZGh24KHbOtp7_2zV-O4kwtTsXyljLvEx0hA4gWWJxYvkIdQMcyqlJKjiersE5x4qLNsw0xV0DvbWsBmJM0Ras3mRM3oAXr-07Hv3VL3wCxefyr0Wny2
+JNWA_1We6y6N4u8AFmXq8_WoGh3wML250l2Z00dk4Gxoxl4E9hX7E4Yxnpl8kvVYOFKtST51-7i04jmZ7EJTunrat4jnKFsTG0dtCXoiyBU2cX9y0PBS2mUJ
+JZySt7FFsXDioq7TNyERhz4Dzveiw8I3l7ienF9DEbXm98Cs8WJPu3CYVRCE5Xngf2in05pmTRc43Sx1_U3ZDTRpxWLzq0usvlHFEyYxf_OKCWtmxjdOByN8
+XiVMYes06m03btamr_C3OD909IkNDXP-aAaKy1M6s7xn1nJIGS8zwUueppSzEkbW8zmhxjwdGplYMsNp8E5U-xlziDkgbg8DSqTnpK6zclVWRX-35VNxgLOk
+1A54tgk_ju-9lt5CT1xKwok5kQFySqzdLTze4XHVe_rAtei1jGUr05vqyCf2DTsUpb8kxw0nwsvvtCPLma4IdMqF3siUenGWIoKysdyC3KW5gRgZBiwV7t_Z
+EdQRnb-an44kWLPzoSpfSSM_jlQlNN04KwVBfEcYrnyKQLpVKGwlloBW58XzwNVvsVnJddO-gxpQLKHAjPVpRrjKdulp6kx0QfpMrwCLf8DS_RK-Ao877gq_
+cLfnvJNlNiGlww1WFKTS0mPm3gxp13UYrRVxJzwzW7SGdvZaFS8emi4v-jKzflcZ79nZj7inMvo3Ksgunrz_uXoS0jgzs1Bhu8GsQFTYjdW7lr9uzoAIDXoC
+OFlYtY1CeXqyxDw-W-QEBVVudFqrQEgf-o_IwFjFS7Vk_fFttSTknWU-_Bnx3xpwssaPjv_d1l4ExgDPZn-4Uvbtm4l6uoT1JtZqRUfUZeDLWWG7GJn-bk5U
+E9ZW7k7Whdiv3ZO94Xo44DGizyB1ZE3Z7UJTot6m2qd1UzpBSR09Zo73lQ0YnRt0aE0UuI3hNbO8zjmNe4maym1CTcZ0IVDv2lV-uTUfLzccQ6slKOiyuURc
+vdy
+}
+
+GCPEntityColoring(GradleAppEnginePlugin)
+!define GradleAppEnginePlugin(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, GradleAppEnginePlugin, GradleAppEnginePlugin)
+!define GradleAppEnginePlugin(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, GradleAppEnginePlugin, GradleAppEnginePlugin)
+!define GradleAppEnginePluginParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, #4284F3, GradleAppEnginePlugin, GradleAppEnginePlugin)
+!define GradleAppEnginePluginParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, GradleAppEnginePlugin, GradleAppEnginePlugin)
+
+sprite $IDEPlugins [128x128/16z] {
+xPi7jkmW34F153dxN_3lLMVYC914lqIdlkaMklIN0Zrwz2XRhQs-hLQhvRGiQt1Coj4ihQavV47mjcHzXoyAVQ4HEdnPwFFcmqyGPfl0_2JPYlko5gZmauGw
+attuQK9U29ycWWO_KR25y2aYMFnSeQIt1FYf0WJi4OC2zeX10Nl4e82zcC6OFGc3nI_I88FmQmG8s2C61UmHW-FiIHWqlrAmSVOa31RufKAvENmi2DWZ1ZNb
+CuCnUn86pM-H2TWZ1WNi4OE2y5441U5Z1hbyZG4SFWc31NwdRArylD04WxCTVxVLIJlAIlXilVT4dcUlxOmUqn6ClKF_91oFO3buJsn0-CgUoTsQTbHfdfVx
+M0JBG6FdaHaCg3WRMmu1nutTHbPHXJrgeG4Zx25J-Jq5wlosU1W8sAD2-jXcgh5jDOxW8NiWOuczR7J6qJRwdJXYq32G4RnahtnnfPUN3FQ1RCEEs2CNjyhz
+3NjID_hfFJR09jXZgxSspQ2r4VQu9ZQM7-Ttxmfn-BY2pgZ5JzWnWpqCNy0UVMec1YazKq8AoZSEohu1wK_-VeZzx-By5R-Alss4lvfnLV_ZvDwEm_Ny_fT7
+pdW0UclyyP7nXqVEE63bdV5t6nf_-PV74v2E2-OVdPeZs8-s2-PV7is_c9fs-loJoOqdu1CCagROiv_GZAm_Y44IDRPnNV423E4hUNMzj_xYDtdCtkoHpzPt
+mhVv6wgq_N3t-djfzs1v_y6BPFTjlnV9mlqdPl1wjQKZ_tNbEuvTO_Q4Ew2uxzWzPa_08B6dOD14ns_Cde116lSK35RHyJEp9sBGHDSFc3qHWrbq_OJP4p18
+x2aOBABhLyoUY44JNRzZzWGC4diA1glg-Yc7Jy0WiITWiAkkNpDx6WQRwlezioTWaDWJH11fGWK2ziW00Nl4u8digIBO1Fy0HUuBVq1FAwh0lUIpSeDZNDpq
+bfQLhTGvbPm2FNhqw2C
+}
+
+GCPEntityColoring(IDEPlugins)
+!define IDEPlugins(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, IDEPlugins, IDEPlugins)
+!define IDEPlugins(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, IDEPlugins, IDEPlugins)
+!define IDEPluginsParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, #4284F3, IDEPlugins, IDEPlugins)
+!define IDEPluginsParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, IDEPlugins, IDEPlugins)
+
+sprite $MavenAppEnginePlugin [128x128/16z] {
+xPjNkZGh24KHbOtp7_2zV-O4kwtTsXyljLvEx0hA4gWWJxYvkIdQMcyqlJKjiersE5x4qLNsw0xV0DvbWsBmJM0Ras3mRM3oAXr-07Hv3VL3wCxefyr0Wny2
+JNWA_1We6y6N4u8AFmXq8_WoGh3wML250l2Z00dk4Gxoxl4E9hX7E4Yxnpl8kvVYOFKtST51-7i04jmZ7EJTunrat4jnKFsTG0dtCXoiyBU2cX9y0PBS2mUJ
+JZySt7FFsXDioq7TNyERhz4Dzveiw8I3l7ienF9DEbXm98Cs8WJPu3CYVRCE5Xngf2in05pmTRc43Sx1_U3ZDTRpxWLzq0usvlHFEyYxf_OKCWtmxjdOByN8
+XiVMYes06m03btamr_C3OD909IkNDXP-aAaKy1M6s7xn1nJIGS8zwUueppSzEkbW8zmhxjwdGplYMsNp8E5U-xlziDkgbg8DSqTnpK6zclVWRX-35VNxgLOk
+1A54tgk_ju-9lt5CT1xKwok5kQFySqzdLTze4XHVe_rAtei1jGUr05vqyCf2DTsUpb8kxw0nwsvvtCPLma4IdMqF3siUenGWIoKysdyC3KW5gRgZBiwV7t_Z
+EdQRnb-an44kWLPzoSpfSSM_jlQlNN04KwVBfEcYrnyKQLpVKGwlloBW58XzwNVvsVnJddO-gxpQLKHAjPVpRrjKdulp6kx0QfpMrwCLf8DS_RK-Ao877gq_
+cLfnvJNlNiGlww1WFKTS0mPm3gxp13UYrRVxJzwzW7SGdvZaFS8emi4v-jKzflcZ79nZj7inMvo3Ksgunrz_uXoS0jgzs1Bhu8GsQFTYjdW7lr9uzoAIDXoC
+OFlYtY1CeXqyxDw-W-QEBVVudFqrQEgf-o_IwFjFS7Vk_fFttSTknWU-_Bnx3xpwssaPjv_d1l4ExgDPZn-4Uvbtm4l6uoT1JtZqRUfUZeDLWWG7GJn-bk5U
+E9ZW7k7Whdiv3ZO94Xo44DGizyB1ZE3Z7UJTot6m2qd1UzpBSR09Zo73lQ0YnRt0aE0UuI3hNbO8zjmNe4maym1CTcZ0IVDv2lV-uTUfLzccQ6slKOiyuURc
+vdy
+}
+
+GCPEntityColoring(MavenAppEnginePlugin)
+!define MavenAppEnginePlugin(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, MavenAppEnginePlugin, MavenAppEnginePlugin)
+!define MavenAppEnginePlugin(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, MavenAppEnginePlugin, MavenAppEnginePlugin)
+!define MavenAppEnginePluginParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, #4284F3, MavenAppEnginePlugin, MavenAppEnginePlugin)
+!define MavenAppEnginePluginParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, MavenAppEnginePlugin, MavenAppEnginePlugin)
 

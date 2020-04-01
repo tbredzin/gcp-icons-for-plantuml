@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
+# Copyright (c) 2020 David Holsgrove
 # Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
-# SPDX-License-Identifier: MIT (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+# SPDX-License-Identifier: MIT (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
 
 
-"""icon-builder.py: Build AWS Icons for PlantUML"""
+"""icon-builder.py: Build GCP Icons for PlantUML"""
 
 import os
 import argparse
@@ -17,46 +18,48 @@ from subprocess import PIPE
 
 import yaml
 
-from awsicons.icon import Icon
+from gcpicons.icon import Icon
 
 TEMPLATE_DEFAULT = """
 Defaults:
   Colors:
-    SquidInk: "#232F3E"
+    GoogleBlue: "#4284F3"
   # Defaults for all categories
   Category:
-    Color: SquidInk
+    Color: GoogleBlue
   # Maximum in either height or width in pixels
   TargetMaxSize: 64
 """
 
 MARKDOWN_PREFIX_TEMPLATE = """
 <!--
+Copyright (c) 2020 David Holsgrove
 Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
-SPDX-License-Identifier: MIT (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+SPDX-License-Identifier: MIT (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
 -->
-# AWS Symbols
+# GCP Symbols
 
-The table below lists all AWS symbols in the `dist/` directory, sorted by category.
+The table below lists all GCP symbols in the `dist/` directory, sorted by category.
 
-If you want to reference and use these files without Internet connectivity, you can also download the whole [*PlantUML Icons for AWS* dist](dist/) direcotry and reference it locally with PlantUML.
+If you want to reference and use these files without Internet connectivity, you can also download the whole [*PlantUML Icons for GCP* dist](dist/) direcotry and reference it locally with PlantUML.
 
 ## PNG images
 
-For each symbol, there is a resized icon in PNG format generated from the source file. Where the original icons had transparency set, this has been kept in the generated icons. You can also use the images outside of PlantUML, e.g. for documents or presentations, but the official [AWS Architecture Icons](https://aws.amazon.com/architecture/icons/) are available in all popular formats.
+For each symbol, there is a resized icon in PNG format generated from the source file. Where the original icons had transparency set, this has been kept in the generated icons. You can also use the images outside of PlantUML, e.g. for documents or presentations, but the official [GCP Architecture Icons](https://cloud.google.com/icons/) are available in all popular formats.
 
-## All PNG generated AWS symbols
+## All PNG generated GCP symbols
 
 Category | PUML Macro (Name) | Image (PNG) | PUML Url
   ---    |  ---  | :---:  | ---
 """
 
-PUML_COPYRIGHT = """'Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
-'SPDX-License-Identifier: MIT (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+PUML_COPYRIGHT = """'Copyright (c) 2020 David Holsgrove
+'Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+'SPDX-License-Identifier: MIT (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
 
 """
 
-parser = argparse.ArgumentParser(description="Generates AWS icons for PlantUML")
+parser = argparse.ArgumentParser(description="Generates GCP icons for PlantUML")
 parser.add_argument(
     "--check-env",
     action="store_true",
@@ -81,9 +84,9 @@ def verify_environment():
 
     # Check execution from scripts working directory
     cur_dir = Path(".")
-    if str(cur_dir.absolute()).split("/")[-2:] != ["aws-icons-for-plantuml", "scripts"]:
+    if str(cur_dir.absolute()).split("/")[-2:] != ["gcp-icons-for-plantuml", "scripts"]:
         print(
-            "Working directory for icon-builder.py must be aws-icons-for-plantuml/scripts"
+            "Working directory for icon-builder.py must be gcp-icons-for-plantuml/scripts"
         )
         sys.exit(1)
     # Read config file
@@ -95,14 +98,14 @@ def verify_environment():
         sys.exit(1)
     # Verify other files and folders exist
     dir = Path("../source")
-    q = dir / "AWScommon.puml"
+    q = dir / "GCPCommon.puml"
     if not q.exists():
-        print("File AWScommon.puml not found is source/ directory")
+        print("File GCPCommon.puml not found is source/ directory")
         sys.exit(1)
     q = dir / "official"
     if not q.exists() or len([x for x in q.iterdir() if q.is_dir()]) == 0:
         print(
-            "source/official must contain folders of AWS  icons to process. Please see README file for details."
+            "source/official must contain folders of GCP  icons to process. Please see README file for details."
         )
         sys.exit(1)
     # Start plantuml.jar and verify java
@@ -140,12 +143,12 @@ def copy_puml():
 
 
 def build_file_list():
-    """Enumerate AWS Icons directory.
+    """Enumerate GCP Icons directory.
 
     Format for files since current Release 6.0-2020.01.21 PNG icon set:
-       source/official/CATEGORY/PRODUCT_or_RESOURCE_light-bg@[45]x.png
+       source/official/CATEGORY/PRODUCT_or_RESOURCE.png
     or:
-       source/official/CATEGORY/SUBDIR/PRODUCT_or_RESOURCE_light-bg@[45]x.png
+       source/official/CATEGORY/SUBDIR/PRODUCT_or_RESOURCE.png
 
     Since the 6.0 release, new icons now appear tp have an `@5x.png` designator
 
@@ -153,13 +156,13 @@ def build_file_list():
 
     CATEGORY = grouping of similar services or general icons
     SUBDIR = [optional], used in Compute for EC2 instance types
-    PRODUCT = Specific AWS named service (.e.g, Amazon Simple Queue Service)
-    RESOURCE = Resource of product (e.g., "Queue" for Amazon SQS)
+    PRODUCT = Specific GCP named service (.e.g, Pub/Sub)
+    RESOURCE = Resource of product (e.g., "Queue" for Pub/Sub)
 
-    Returns POSIX path of those files to be processed (ending in _light-bg@4x.png or _light-bg@5x.png)
+    Returns POSIX path of those files to be processed (ending in .png)
     """
     p = Path("../source/official")
-    return sorted(p.glob("**/*_light-bg@[45]x.png"))
+    return sorted(p.glob("**/*.png"))
 
 
 def create_config_template():
@@ -175,7 +178,7 @@ def create_config_template():
         # Get elements needed for YAML file
         category = i.split("/")[3]
         target = Icon(i.split("/")[-1], {})._make_name(i.split("/")[-1])
-        source_name = i.split("/")[-1].split("_light-bg@")[0]
+        source_name = i.split("/")[-1]
         file_source_dir = "/".join(i.split("/", 3)[-1].split("/")[:-1])
 
         # Process each file and populate entries for creating YAML file
@@ -254,7 +257,7 @@ def worker(icon):
     icon.generate_image(
         Path(f"../dist/{icon.category}"),
         color=True,
-        max_target_size=64,
+        max_target_size=128,
         transparency=False,
     )
     print(f"generating PUML for {icon.source_name}")
@@ -263,7 +266,7 @@ def worker(icon):
     icon.generate_image(
         Path(f"../dist/{icon.category}"),
         color=True,
-        max_target_size=64,
+        max_target_size=128,
         transparency=True,
     )
     return
@@ -314,7 +317,7 @@ def main():
                     f"{cat} | {tgt}  | ![{tgt}](dist/{cat}/{tgt}.png?raw=true) |"
                     f"{cat}/{tgt}.puml\n"
                 )
-    with open(Path("../AWSSymbols.md"), "w") as f:
+    with open(Path("../GCPSymbols.md"), "w") as f:
         f.write(markdown)
 
 
