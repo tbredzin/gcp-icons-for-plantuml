@@ -1,0 +1,15 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $certificate_manager_png [128x128/16z] {
+xTG7ZiGW58DX1vBW-rzus_G98o4UYxVuLql_qW2dd7FEEUTSOQ0TmHWEWHPIUGE9bDu01oNcMSG-nJoJsEVlzhUrgs5-HbVVwjktprEbqITPnlaRxqgDFib1
+FfzgzZd2JppKx3Fk9rPgzXdsMQtPBq6VBshr6VCtNjjJdk_pqk5-MdqEyN5jdb_72aybWN_ODidVnFuYzfFOBsAVQZyVDosQ-MVJp7_SB-jp_SmNOOuFrYkp
+VB0QflceyXFzp4EOwjktRz_-glKJeFGN02Wo7wTsaOzBgyJ7hIJmSTyotSTJatqSckfZWc_Vllr08Tz-uR2M7XyS5hJ-tkU3WqAdZq5yjuyXVC07e-q8-K1c
+e0JKVK4HtxvzZif-4Vlewi_u2TeRG6zY7X3pG66mZ61fnBCxvvnpphbt
+}
+
+GCPEntityColoring(certificate_manager_png)
+!define certificate_manager_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, certificate_manager_png, certificate_manager_png)
+!define certificate_manager_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, certificate_manager_png, certificate_manager_png)
+!define certificate_manager_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, certificate_manager_png, certificate_manager_png)
+!define certificate_manager_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, certificate_manager_png, certificate_manager_png)

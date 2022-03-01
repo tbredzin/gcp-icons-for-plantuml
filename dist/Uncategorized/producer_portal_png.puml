@@ -1,0 +1,14 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $producer_portal_png [128x128/16z] {
+xTK53WCn34HHBrgz_u7B35CU5_uNBZv14iUVHqH4RTh2duUFZu-FJqHTyVvBNssnd_WdzSL-EckB_SG_QYZsqrjNxAVqstX3T_Y6-IgNNxmbHQJRxulz5C-Q
+OZ_UKtiP6ONlM83fzmUlhnN1E_n6-8u5c1u_FieVnNs7dyRbf_t6u2ieNNvyb3-ASz6w0D8UFZu-FZx-fcwoNzoO_aY_L-NZu-FZu-FZu-FZu-C_c_RnyV7n
+yV7_FI8YcW4
+}
+
+GCPEntityColoring(producer_portal_png)
+!define producer_portal_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, producer_portal_png, producer_portal_png)
+!define producer_portal_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, producer_portal_png, producer_portal_png)
+!define producer_portal_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, producer_portal_png, producer_portal_png)
+!define producer_portal_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, producer_portal_png, producer_portal_png)

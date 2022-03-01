@@ -1,0 +1,13 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $billing_png [128x128/16z] {
+xTer0eD05431ZyFz3noNCfwrUHtLqC1gj9SaIPAczrlUxwudy4-T-NJ-SkHJ-ajoVqhhJudzXVzH_CHj7_P_dy_dy_bylldNCJwV7tyglS_dy_byun-Vp-Vp
+ttX7_Yb-N7hgERtFv_Fz__YVnET_4hzl-_vVb_R-vHp7nbH-5vU657uVxIL9agGz
+}
+
+GCPEntityColoring(billing_png)
+!define billing_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, billing_png, billing_png)
+!define billing_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, billing_png, billing_png)
+!define billing_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, billing_png, billing_png)
+!define billing_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, billing_png, billing_png)
