@@ -12,7 +12,7 @@ AaIlOlGgwBwMAQMKKWK
 }
 
 GCPEntityColoring(traffic_director_png)
-!define traffic_director_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, traffic_director_png, traffic_director_png)
-!define traffic_director_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, traffic_director_png, traffic_director_png)
-!define traffic_director_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, traffic_director_png, traffic_director_png)
-!define traffic_director_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, traffic_director_png, traffic_director_png)
+!define traffic_director_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, traffic_director_png, traffic_director_png)
+!define traffic_director_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, traffic_director_png, traffic_director_png)
+!define traffic_director_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, #4284F3, traffic_director_png, traffic_director_png)
+!define traffic_director_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, traffic_director_png, traffic_director_png)

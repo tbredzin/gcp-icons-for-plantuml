@@ -15,7 +15,7 @@ kp7FCCVyPy8avhEcFyt_D46Rrh-vy6Hz-f9jFDSTRs0cjpT1pCnqgxDOB1QBlm
 }
 
 GCPEntityColoring(iot_core_png)
-!define iot_core_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, iot_core_png, iot_core_png)
-!define iot_core_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, iot_core_png, iot_core_png)
-!define iot_core_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, iot_core_png, iot_core_png)
-!define iot_core_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, iot_core_png, iot_core_png)
+!define iot_core_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, iot_core_png, iot_core_png)
+!define iot_core_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, iot_core_png, iot_core_png)
+!define iot_core_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, #4284F3, iot_core_png, iot_core_png)
+!define iot_core_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, iot_core_png, iot_core_png)

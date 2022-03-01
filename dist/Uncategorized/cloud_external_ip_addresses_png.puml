@@ -7,7 +7,7 @@ p-Vp-Nn-s8tVTF7dR6QVp-Vp-VL3A_ZrOsbbl_3vV3wVp-Vp-Nm-dy_dy_dt9kEx-_F4v_Fv_3_DxEUL
 }
 
 GCPEntityColoring(cloud_external_ip_addresses_png)
-!define cloud_external_ip_addresses_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, cloud_external_ip_addresses_png, cloud_external_ip_addresses_png)
-!define cloud_external_ip_addresses_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, cloud_external_ip_addresses_png, cloud_external_ip_addresses_png)
-!define cloud_external_ip_addresses_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, cloud_external_ip_addresses_png, cloud_external_ip_addresses_png)
-!define cloud_external_ip_addresses_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, cloud_external_ip_addresses_png, cloud_external_ip_addresses_png)
+!define cloud_external_ip_addresses_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, cloud_external_ip_addresses_png, cloud_external_ip_addresses_png)
+!define cloud_external_ip_addresses_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, cloud_external_ip_addresses_png, cloud_external_ip_addresses_png)
+!define cloud_external_ip_addresses_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, #4284F3, cloud_external_ip_addresses_png, cloud_external_ip_addresses_png)
+!define cloud_external_ip_addresses_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, cloud_external_ip_addresses_png, cloud_external_ip_addresses_png)

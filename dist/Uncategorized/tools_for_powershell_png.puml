@@ -12,7 +12,7 @@ Q7JlnGpmDt4V4Lm8tmloDlA11kT--8PX68PX68PX68PX68Rl
 }
 
 GCPEntityColoring(tools_for_powershell_png)
-!define tools_for_powershell_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, tools_for_powershell_png, tools_for_powershell_png)
-!define tools_for_powershell_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, tools_for_powershell_png, tools_for_powershell_png)
-!define tools_for_powershell_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, tools_for_powershell_png, tools_for_powershell_png)
-!define tools_for_powershell_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, tools_for_powershell_png, tools_for_powershell_png)
+!define tools_for_powershell_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, tools_for_powershell_png, tools_for_powershell_png)
+!define tools_for_powershell_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, tools_for_powershell_png, tools_for_powershell_png)
+!define tools_for_powershell_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, #4284F3, tools_for_powershell_png, tools_for_powershell_png)
+!define tools_for_powershell_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, tools_for_powershell_png, tools_for_powershell_png)

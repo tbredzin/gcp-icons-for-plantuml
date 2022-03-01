@@ -10,7 +10,7 @@ _yJdZzBpLuFu_5b__fu58Bv_uWlWzzy_2Wf0V_-ild__lUyFKFxZ-vCUjT_4VgprYmj0__vEMWFYzvVg
 }
 
 GCPEntityColoring(data_labeling_png)
-!define data_labeling_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, data_labeling_png, data_labeling_png)
-!define data_labeling_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, data_labeling_png, data_labeling_png)
-!define data_labeling_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, data_labeling_png, data_labeling_png)
-!define data_labeling_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, data_labeling_png, data_labeling_png)
+!define data_labeling_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, data_labeling_png, data_labeling_png)
+!define data_labeling_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, data_labeling_png, data_labeling_png)
+!define data_labeling_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, #4284F3, data_labeling_png, data_labeling_png)
+!define data_labeling_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, data_labeling_png, data_labeling_png)

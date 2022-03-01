@@ -15,7 +15,7 @@ mthrGcWm-gc2C73eZETIHcravSaBPU8NcNnUG939vn6819FF8z0Jh7m-0pr9zdW18j-SUGIKODj71V3i
 }
 
 GCPEntityColoring(google_maps_platform_png)
-!define google_maps_platform_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, google_maps_platform_png, google_maps_platform_png)
-!define google_maps_platform_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, google_maps_platform_png, google_maps_platform_png)
-!define google_maps_platform_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, google_maps_platform_png, google_maps_platform_png)
-!define google_maps_platform_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, google_maps_platform_png, google_maps_platform_png)
+!define google_maps_platform_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, google_maps_platform_png, google_maps_platform_png)
+!define google_maps_platform_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, google_maps_platform_png, google_maps_platform_png)
+!define google_maps_platform_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, #4284F3, google_maps_platform_png, google_maps_platform_png)
+!define google_maps_platform_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, google_maps_platform_png, google_maps_platform_png)

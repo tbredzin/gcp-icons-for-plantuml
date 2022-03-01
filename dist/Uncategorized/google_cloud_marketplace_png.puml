@@ -14,7 +14,7 @@ dkDZlM0uqdDyhbTC9thEM841z9owBgX0J_5roMHw7ZzIW1xIrmaTw25pdJ1I-hp_17gflth-wlsdFd_Y
 }
 
 GCPEntityColoring(google_cloud_marketplace_png)
-!define google_cloud_marketplace_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, google_cloud_marketplace_png, google_cloud_marketplace_png)
-!define google_cloud_marketplace_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, google_cloud_marketplace_png, google_cloud_marketplace_png)
-!define google_cloud_marketplace_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, google_cloud_marketplace_png, google_cloud_marketplace_png)
-!define google_cloud_marketplace_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, google_cloud_marketplace_png, google_cloud_marketplace_png)
+!define google_cloud_marketplace_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, google_cloud_marketplace_png, google_cloud_marketplace_png)
+!define google_cloud_marketplace_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, google_cloud_marketplace_png, google_cloud_marketplace_png)
+!define google_cloud_marketplace_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, #4284F3, google_cloud_marketplace_png, google_cloud_marketplace_png)
+!define google_cloud_marketplace_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, google_cloud_marketplace_png, google_cloud_marketplace_png)

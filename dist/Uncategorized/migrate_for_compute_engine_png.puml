@@ -10,7 +10,7 @@ FFrTEa3S8da-alSVCCIvJZwKvSDsigJ4wdoipfTyy2YAeYZw3m
 }
 
 GCPEntityColoring(migrate_for_compute_engine_png)
-!define migrate_for_compute_engine_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, migrate_for_compute_engine_png, migrate_for_compute_engine_png)
-!define migrate_for_compute_engine_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, migrate_for_compute_engine_png, migrate_for_compute_engine_png)
-!define migrate_for_compute_engine_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, migrate_for_compute_engine_png, migrate_for_compute_engine_png)
-!define migrate_for_compute_engine_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, migrate_for_compute_engine_png, migrate_for_compute_engine_png)
+!define migrate_for_compute_engine_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, migrate_for_compute_engine_png, migrate_for_compute_engine_png)
+!define migrate_for_compute_engine_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, migrate_for_compute_engine_png, migrate_for_compute_engine_png)
+!define migrate_for_compute_engine_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, #4284F3, migrate_for_compute_engine_png, migrate_for_compute_engine_png)
+!define migrate_for_compute_engine_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, migrate_for_compute_engine_png, migrate_for_compute_engine_png)

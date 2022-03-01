@@ -12,7 +12,7 @@ iMtRjctRUm
 }
 
 GCPEntityColoring(genomics_png)
-!define genomics_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, genomics_png, genomics_png)
-!define genomics_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, genomics_png, genomics_png)
-!define genomics_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, genomics_png, genomics_png)
-!define genomics_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, genomics_png, genomics_png)
+!define genomics_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, genomics_png, genomics_png)
+!define genomics_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, genomics_png, genomics_png)
+!define genomics_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, #4284F3, genomics_png, genomics_png)
+!define genomics_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, genomics_png, genomics_png)

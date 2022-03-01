@@ -12,7 +12,7 @@ pV0XWOE_me83F2Bw0Iq70f1_De1bW0nGJWMW_sW0Q3aP0FM8dG6WvHW2K7y6gLB-W2H9akGN
 }
 
 GCPEntityColoring(cloud_jobs_api_png)
-!define cloud_jobs_api_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, cloud_jobs_api_png, cloud_jobs_api_png)
-!define cloud_jobs_api_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, cloud_jobs_api_png, cloud_jobs_api_png)
-!define cloud_jobs_api_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, cloud_jobs_api_png, cloud_jobs_api_png)
-!define cloud_jobs_api_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, cloud_jobs_api_png, cloud_jobs_api_png)
+!define cloud_jobs_api_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, cloud_jobs_api_png, cloud_jobs_api_png)
+!define cloud_jobs_api_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, cloud_jobs_api_png, cloud_jobs_api_png)
+!define cloud_jobs_api_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, #4284F3, cloud_jobs_api_png, cloud_jobs_api_png)
+!define cloud_jobs_api_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, cloud_jobs_api_png, cloud_jobs_api_png)

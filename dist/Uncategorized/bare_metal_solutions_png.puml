@@ -10,7 +10,7 @@ uG0gW7J_GxBIVUyF0Q9xmGLqBkW900MWGm7eK82w5wZk1QZxNgfxWUfUeBeNNFx9dPsTdPrz0m
 }
 
 GCPEntityColoring(bare_metal_solutions_png)
-!define bare_metal_solutions_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, bare_metal_solutions_png, bare_metal_solutions_png)
-!define bare_metal_solutions_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, bare_metal_solutions_png, bare_metal_solutions_png)
-!define bare_metal_solutions_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, bare_metal_solutions_png, bare_metal_solutions_png)
-!define bare_metal_solutions_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, bare_metal_solutions_png, bare_metal_solutions_png)
+!define bare_metal_solutions_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, bare_metal_solutions_png, bare_metal_solutions_png)
+!define bare_metal_solutions_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, bare_metal_solutions_png, bare_metal_solutions_png)
+!define bare_metal_solutions_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, #4284F3, bare_metal_solutions_png, bare_metal_solutions_png)
+!define bare_metal_solutions_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, bare_metal_solutions_png, bare_metal_solutions_png)

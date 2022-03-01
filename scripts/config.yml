@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: MIT (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
 #
 # Hand curated config file for GCP Architecture Icon set as of 2020-04-01
-# 
+#
 Defaults:
   Colors:
     GoogleBlue: "#4284F3"
@@ -273,10 +273,4 @@ Categories:
   - Source: Persistent Disk.png
     Target: PersistentDisk
   SourceDir: Storage
-Defaults:
-  Category:
-    Color: GoogleBlue
-  Colors:
-    GoogleBlue: '#4284F3'
-  TargetMaxSize: 128
 

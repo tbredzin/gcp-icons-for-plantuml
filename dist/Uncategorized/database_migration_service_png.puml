@@ -14,7 +14,7 @@ emHuV6XylZr1FF3LlxoI-3EzzFhb6xJozkGRjF3sP7gpmjkJnNlbxUaaFiglNrMyNWEJnEirOF6r4cZr
 }
 
 GCPEntityColoring(database_migration_service_png)
-!define database_migration_service_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, database_migration_service_png, database_migration_service_png)
-!define database_migration_service_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, database_migration_service_png, database_migration_service_png)
-!define database_migration_service_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, database_migration_service_png, database_migration_service_png)
-!define database_migration_service_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, database_migration_service_png, database_migration_service_png)
+!define database_migration_service_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, database_migration_service_png, database_migration_service_png)
+!define database_migration_service_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, database_migration_service_png, database_migration_service_png)
+!define database_migration_service_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, #4284F3, database_migration_service_png, database_migration_service_png)
+!define database_migration_service_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, database_migration_service_png, database_migration_service_png)

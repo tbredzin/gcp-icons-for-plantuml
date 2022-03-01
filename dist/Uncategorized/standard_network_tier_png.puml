@@ -10,7 +10,7 @@ Y8Y8Y8Y8Y8Y8w14
 }
 
 GCPEntityColoring(standard_network_tier_png)
-!define standard_network_tier_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, standard_network_tier_png, standard_network_tier_png)
-!define standard_network_tier_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, standard_network_tier_png, standard_network_tier_png)
-!define standard_network_tier_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, standard_network_tier_png, standard_network_tier_png)
-!define standard_network_tier_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, standard_network_tier_png, standard_network_tier_png)
+!define standard_network_tier_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, standard_network_tier_png, standard_network_tier_png)
+!define standard_network_tier_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, standard_network_tier_png, standard_network_tier_png)
+!define standard_network_tier_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, #4284F3, standard_network_tier_png, standard_network_tier_png)
+!define standard_network_tier_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, standard_network_tier_png, standard_network_tier_png)

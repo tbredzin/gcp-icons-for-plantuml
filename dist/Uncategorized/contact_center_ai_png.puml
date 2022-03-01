@@ -10,7 +10,7 @@ fz_1wOFJJpZz1auVd3uu_OBL1wSFJZ_Zz3iuVN3w2QVVmEbZR8xkxtGwdKvV0G
 }
 
 GCPEntityColoring(contact_center_ai_png)
-!define contact_center_ai_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, contact_center_ai_png, contact_center_ai_png)
-!define contact_center_ai_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, contact_center_ai_png, contact_center_ai_png)
-!define contact_center_ai_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, contact_center_ai_png, contact_center_ai_png)
-!define contact_center_ai_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, contact_center_ai_png, contact_center_ai_png)
+!define contact_center_ai_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, contact_center_ai_png, contact_center_ai_png)
+!define contact_center_ai_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, contact_center_ai_png, contact_center_ai_png)
+!define contact_center_ai_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, #4284F3, contact_center_ai_png, contact_center_ai_png)
+!define contact_center_ai_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, contact_center_ai_png, contact_center_ai_png)

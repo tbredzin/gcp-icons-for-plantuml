@@ -14,7 +14,7 @@ Pm3SLg0XusL_FyRv5edpCHy1VgAkr9QY0Ax4X_fQn02SY7SNQYMG63esnX3gi25U18cQ_uzfWNOHNxvy
 }
 
 GCPEntityColoring(looker_png)
-!define looker_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, looker_png, looker_png)
-!define looker_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, looker_png, looker_png)
-!define looker_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, looker_png, looker_png)
-!define looker_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, looker_png, looker_png)
+!define looker_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, looker_png, looker_png)
+!define looker_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, looker_png, looker_png)
+!define looker_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, #4284F3, looker_png, looker_png)
+!define looker_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, looker_png, looker_png)

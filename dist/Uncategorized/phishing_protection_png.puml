@@ -17,7 +17,7 @@ DpStDpStDty
 }
 
 GCPEntityColoring(phishing_protection_png)
-!define phishing_protection_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, phishing_protection_png, phishing_protection_png)
-!define phishing_protection_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, phishing_protection_png, phishing_protection_png)
-!define phishing_protection_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, phishing_protection_png, phishing_protection_png)
-!define phishing_protection_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, phishing_protection_png, phishing_protection_png)
+!define phishing_protection_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, phishing_protection_png, phishing_protection_png)
+!define phishing_protection_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, phishing_protection_png, phishing_protection_png)
+!define phishing_protection_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, #4284F3, phishing_protection_png, phishing_protection_png)
+!define phishing_protection_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, phishing_protection_png, phishing_protection_png)

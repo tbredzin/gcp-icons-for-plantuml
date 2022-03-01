@@ -14,7 +14,7 @@ ludz-laRFO1jl-KUWDBzkGV0T7-Wry5h_gZpTUo_-cl20KZPdte45Rf_jVGw9llNoUj0zQ_F7-iOD3_P
 }
 
 GCPEntityColoring(connectors_png)
-!define connectors_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, connectors_png, connectors_png)
-!define connectors_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, connectors_png, connectors_png)
-!define connectors_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, connectors_png, connectors_png)
-!define connectors_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, connectors_png, connectors_png)
+!define connectors_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, connectors_png, connectors_png)
+!define connectors_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, connectors_png, connectors_png)
+!define connectors_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, #4284F3, connectors_png, connectors_png)
+!define connectors_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, connectors_png, connectors_png)

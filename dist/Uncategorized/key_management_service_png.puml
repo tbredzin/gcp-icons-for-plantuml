@@ -14,7 +14,7 @@ WWwFZdZ_xr_TRhVRxKy
 }
 
 GCPEntityColoring(key_management_service_png)
-!define key_management_service_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, key_management_service_png, key_management_service_png)
-!define key_management_service_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, key_management_service_png, key_management_service_png)
-!define key_management_service_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, key_management_service_png, key_management_service_png)
-!define key_management_service_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, key_management_service_png, key_management_service_png)
+!define key_management_service_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, key_management_service_png, key_management_service_png)
+!define key_management_service_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, key_management_service_png, key_management_service_png)
+!define key_management_service_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, #4284F3, key_management_service_png, key_management_service_png)
+!define key_management_service_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, key_management_service_png, key_management_service_png)
